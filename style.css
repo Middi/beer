@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("beer.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.center {
+  max-width: 800px;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 10px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-weight: 400; }
+
+span {
+  color: orangered;
+  font-weight: 600; }
