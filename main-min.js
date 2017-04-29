@@ -1,1 +1,1 @@
-function next(){var e=document.getElementById("high").textContent;document.getElementById("high").innerHTML=e-1,document.getElementById("repeat").innerHTML=e-1,document.getElementById("low").innerHTML=e-2}
+function next(){var e=document.getElementById("high").textContent;e>1&&(document.getElementById("high").innerHTML=e-1,document.getElementById("repeat").innerHTML=e-1,document.getElementById("low").innerHTML=e-2)}
